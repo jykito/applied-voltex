@@ -1,0 +1,7 @@
+{
+  "itemGroup.applied_voltex": "Applied Voltex",
+  "block.applied_voltex.instant_assembler": "Моментальный сборщик",
+  "block.applied_voltex.avaritia_assembler": "Сборщик Аваритии",
+  "block.applied_voltex.avaritia_encoder": "Кодировщик Аваритии",
+  "gui.applied_voltex.search": "Поиск…"
+}

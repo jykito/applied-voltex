@@ -1,0 +1,40 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="${mod_license}"
+
+[[mods]]
+modId="applied_voltex"
+version="${mod_version}"
+displayName="Applied Voltex"
+authors="${mod_authors}"
+description='''${mod_description}'''
+
+[[dependencies.applied_voltex]]
+    modId="forge"
+    mandatory=true
+    versionRange="${forge_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.applied_voltex]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="${minecraft_version_range}"
+    ordering="NONE"
+    side="BOTH"
+
+# Applied Energistics 2 — обязательная зависимость (это AE2-аддон)
+[[dependencies.applied_voltex]]
+    modId="ae2"
+    mandatory=true
+    versionRange="[15.0,)"
+    ordering="AFTER"
+    side="BOTH"
+
+# Re:Avaritia — ОПЦИОНАЛЬНАЯ: нужна только кодировщику/9×9. Без неё мод грузится (кодировщик просто пустой).
+[[dependencies.applied_voltex]]
+    modId="avaritia"
+    mandatory=false
+    versionRange="*"
+    ordering="AFTER"
+    side="BOTH"

@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "applied_voltex:block/avaritia_encoder_top",
+    "bottom": "applied_voltex:block/avaritia_encoder_bottom",
+    "side": "applied_voltex:block/avaritia_encoder_side",
+    "particle": "applied_voltex:block/avaritia_encoder_side"
+  }
+}
